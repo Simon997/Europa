@@ -1,0 +1,604 @@
+#div_email {background-color: lightgrey; padding: 3rem; text-align: center; margin: auto;}
+.confirmation_formulaire {background-color: #0d1c30; padding: 2rem; text-align: center; font-family: 'Oswald', sans-serif; color: white;}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+}
+h1,h2,h3,a{
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  color: #e9aa6d;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  width: 371px;
+}
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0d1c30;
+  text-transform: uppercase;
+}
+h4{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #e9aa6d;
+  text-transform: uppercase;
+}
+header{
+  background-color: #0d1c30;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav{
+  width: 300px;
+  margin-left: 144px;
+  display: flex;
+  justify-content: space-between;
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+header .button-small{
+  margin-right: 144px;
+  border: 2px solid white;
+  padding: 13px 20px 13px 20px;
+}
+main{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.hero{
+  width: 1151px;
+  margin-top: 70px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 624px;
+}
+.hero section{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.hero p{
+  width: 468px;
+  height: 198px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.06;
+  letter-spacing: normal;
+  color: #0d1c30;
+  margin-bottom: 30px;
+}
+.hero img{
+  width: 595px;
+  height: 624px;
+}
+.hero a{
+  padding: 17px 40px 17px 40px;
+  background-color: #0d1c30;
+  color: white;
+  width: 200px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+}
+.pourquoi_voter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-top: 90px;
+  width: 1151px;
+}
+img.fleche{
+  width: 111px;
+}
+.pourquoi_voter .voter_cest ul{
+  background-color: #0d1c30;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 600px;
+  padding: 55px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+.pourquoi_voter .nepasvoter{
+  width: 1151px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+.pourquoi_voter .nepasvoter ul{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border: solid 8px #0d1c30;
+  background-color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #0d1c30;
+  width: 600px;
+  padding: 55px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+}
+.pourquoi_voter .voter_cest li{
+  margin-bottom: 50px;
+}
+.pourquoi_voter .voter_cest li:last-child{
+  margin-bottom: 0;
+}
+.pourquoi_voter .nepasvoter li{
+  margin-bottom: 50px;
+}
+.pourquoi_voter .nepasvoter li:last-child{
+  margin-bottom: 0;
+}
+.pourquoi_voter .voter_cest{
+  width: 1151px;
+}
+.pourquoi_voter .voter_cest img.motif{
+  width: 86px;
+  height: 78px;
+}
+.pourquoi_voter .nepasvoter img.motif_miroir{
+  width: 86px;
+  height: 78px;
+}
+.pourquoi_voter .voter_cest .titre{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pourquoi_voter .nepasvoter .titre{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pourquoi_voter .nepasvoter .titre h3{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #0d1c30;
+  margin-right: 30px;
+  text-align: right;
+}
+.pourquoi_voter .voter_cest .titre h3{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  color: #0d1c30;
+  margin-left: 30px;
+}
+.pourquoi_voter .voter_cest .titre h3 span{
+  color: #e9aa6d;
+}
+.pourquoi_voter .nepasvoter .titre h3 span{
+  color: #e9aa6d;
+}
+.points_cles{
+  margin-top: 90px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 1151px;
+}
+.points_cles div{
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-top: 50px;
+}
+.points_cles div img{
+  width: 235px;
+}
+.points_cles p{
+  width: 395px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.69;
+  letter-spacing: normal;
+  color: #0d1c30;
+}
+.points_cles div section{
+  height: 100%;
+  margin-left: 50px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+.points_cles div section p{
+  margin-top: -20px;
+}
+.points_cles .right{
+  display: flex;
+  justify-content: flex-end;
+}
+.newsletter{
+  margin-top: 70px;
+  background-color: #0d1c30;
+}
+.newsletter h2{
+  color: white;
+}
+.newsletter{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+.newsletter p{
+  width: 1151px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.formulaire{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.formulaire .mail{
+  width: 508px;
+  height: 50px;
+  font-family: 'Work Sans', sans-serif;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d6d6d6;
+}
+.formulaire .submitbutton{
+  padding: 17px 40px 17px 40px;
+  background-color: #0d1c30;
+  color: white;
+  width: 320px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  border: 2px solid white;
+  margin-top: 40px;
+}
+footer{
+  background-color: #0d1c30;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+}
+footer section{
+  display: flex;
+  flex-flow: row;
+  width: 1151px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer div:first-child{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+}
+footer div:last-child{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+footer img{
+  width: 338px;
+  height: 103px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+
+
+
+
+
+/*@media screen and (max-width:480px){
+  header{
+    background-color: #0d1c30;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1{
+    color: #e9aa6d;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 173px;
+  }
+  .hero{
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .hero section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 335px;
+  }
+  .hero img{
+    width: 280px;
+    height: 293px;
+  }
+  .button-small{
+    display: none;
+  }
+  header nav{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero p{
+    width: 200px;
+    height: 198px;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    color: #0d1c30;
+    margin-bottom: 30px;
+  }
+}*/
+
+@media screen and (max-width:480px){
+  header{
+    background-color: #0d1c30;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1{
+    color: #e9aa6d;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 173px;
+  }
+  .hero{
+    width: 100%;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .hero section{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 335px;
+  }
+  .hero img{
+    margin-top: 5%;
+    margin-left: -20%;
+    width: 280px;
+    height: 293px;
+  }
+  .button-small{
+    display: none;
+  }
+  header nav{
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero a{
+    padding: 10px 20px 10px 20px;
+    margin-top: 80px;
+    background-color: #0d1c30;
+    color: white;
+    width: 145px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+  }
+  .hero p{
+    width: 200px;
+    height: 198px;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.06;
+    letter-spacing: normal;
+    color: #0d1c30;
+    margin-bottom: 30px;
+  }
+  img.fleche{
+    width: 45px;
+  }
+  h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0d1c30;
+    text-transform: uppercase;
+  }
+  .pourquoi_voter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 200px;
+    width: 100%;
+  }
+  .pourquoi_voter .nepasvoter{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+  .pourquoi_voter .voter_cest{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+  }
+  .pourquoi_voter .voter_cest ul{
+    background-color: #0d1c30;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 90%;
+    padding: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  .pourquoi_voter .nepasvoter ul{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 8px #0d1c30;
+    background-color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #0d1c30;
+    width: 300px;
+    padding: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+  }
+  .pourquoi_voter .nepasvoter .titre h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #0d1c30;
+    margin-right: 30px;
+    text-align: right;
+  }
+  .pourquoi_voter .voter_cest .titre h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #0d1c30;
+    margin-left: 30px;
+  }
+  .pourquoi_voter .voter_cest img.motif{
+    width: 36px;
+    height: 33px;
+  }
+  .pourquoi_voter .nepasvoter img.motif_miroir{
+    width: 36px;
+    height: 33px;
+  }
+}
